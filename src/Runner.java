@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Runner {
 
     public static void main(String[] args) {
+        test();
         LoginForm loginForm = new LoginForm();
         loginForm.initialize();
     }
@@ -19,9 +20,12 @@ public class Runner {
         Teacher teacher1 = new Teacher("Jan", "Nowak", "sss", "xxx", "professor");
         System.out.println(teacher1);
 
+        Administrator administrator1 = new Administrator("Wiktoria", "Nowak", "wn@xx", "wn");
+
         FileUserRepository fileUserRepository = new FileUserRepository();
         fileUserRepository.insert(student1);
         fileUserRepository.insert(teacher1);
+        fileUserRepository.insert(administrator1);
 
         List<User> users = fileUserRepository.findAll();
         System.out.println(users);

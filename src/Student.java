@@ -10,4 +10,9 @@ public class Student extends User {
     public String toString() {
         return "Student nr albumu " + albumNumber;
     }
+
+    @Override
+    public UserRole getRole() {
+        return UserRole.STUDENT;
+    }
 }

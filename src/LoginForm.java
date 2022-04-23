@@ -14,6 +14,7 @@ public class LoginForm {
         User user = fileUserRepository.findByEmailAndPassword(email, password);
         if (user != null) {
             System.out.println("Zalogowano jako: " + user);
+            System.out.println("Twoja rola: " + user.getRole().getTranslated());
         } else {
             System.out.println("Dane nieprawidłowe, spróbuj ponownie.");
             initialize();

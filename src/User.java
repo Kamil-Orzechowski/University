@@ -20,4 +20,6 @@ public abstract class User implements Serializable {
     public String getPassword() {
         return password;
     }
+
+    public abstract UserRole getRole();
 }
