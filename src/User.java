@@ -21,6 +21,14 @@ public abstract class User implements Serializable {
         return password;
     }
 
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
     public abstract UserRole getRole();
 
     @Override
