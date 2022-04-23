@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec914d12-9e3e-44e5-819d-fad64244428c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Administrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdministratorMenuView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StudentMenuView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SystemMenuView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TeacherMenuView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Administrator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
@@ -20,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,7 +53,23 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Runner">
+    <configuration name="Runner (z automatycznym logowaniem)" type="Application" factoryName="Application">
+      <envs>
+        <env name="USER_EMAIL" value="wn@xx" />
+        <env name="USER_PASSWORD" value="wn" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="Runner" />
+      <module name="University" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
       <module name="University" />
@@ -58,6 +77,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Runner (z automatycznym logowaniem)" />
+      <item itemvalue="Application.Runner" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Runner" />
@@ -80,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650708679262</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Zadania cd.">
+      <created>1650711137022</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650711137022</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +126,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Zadania 1-5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zadania 1-5" />
+    <MESSAGE value="Zadania cd." />
+    <option name="LAST_COMMIT_MESSAGE" value="Zadania cd." />
   </component>
 </project>

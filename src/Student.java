@@ -6,10 +6,6 @@ public class Student extends User {
         this.albumNumber = albumNumber;
     }
 
-    @Override
-    public String toString() {
-        return "Student nr albumu " + albumNumber;
-    }
 
     @Override
     public UserRole getRole() {

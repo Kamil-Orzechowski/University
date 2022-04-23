@@ -22,4 +22,10 @@ public abstract class User implements Serializable {
     }
 
     public abstract UserRole getRole();
+
+    @Override
+    public String toString() {
+        return firstName+" "+lastName+" ("+email+")\n"+
+                "Funkcja: "+getRole().getTranslated();
+    }
 }
