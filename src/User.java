@@ -26,6 +26,14 @@ public abstract class User implements Serializable {
 
     public abstract UserRole getRole();
 
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
     @Override
     public String toString() {
         return firstName+" "+lastName+" ("+email+")\n" +

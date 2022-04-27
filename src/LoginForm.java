@@ -21,6 +21,7 @@ public class LoginForm {
             System.out.println(loggedUser);
             UserRole role = loggedUser.getRole();
             SystemMenuView systemMenuView = createMenuView(role);
+            System.out.println(systemMenuView.getTitle());
             systemMenuView.initialize();
         } else {
             System.out.println("Dane nieprawidłowe, spróbuj ponownie");

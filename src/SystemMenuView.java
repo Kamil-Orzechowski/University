@@ -1,5 +1,2 @@
-public abstract class SystemMenuView {
-
-    public abstract void initialize();
-
+public abstract class SystemMenuView extends BaseView{
 }
