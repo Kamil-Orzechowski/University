@@ -13,6 +13,10 @@ public class Runner {
                 "kowalska@gmail.com", "malg@onE", "mgr");
         Administrator administrator1 = new Administrator("Witold", "Kowalski",
                 "witek35@gmail.com", "Qwert@e9x3");
+        Student student2 = new Student("Anna", "Anielewicz",
+                "ania@gmail.com", "ania", 222L);
+        Student student3 = new Student("Aldona", "Anielewicz",
+                "aldona@gmail.com", "aldona", 223L);
 
 //        UserRole role1 = UserRole.STUDENT;
 //        UserRole role2 = UserRole.TEACHER;
@@ -22,6 +26,8 @@ public class Runner {
         fileUserRepository.insert(student1);
         fileUserRepository.insert(teacher1);
         fileUserRepository.insert(administrator1);
+        fileUserRepository.insert(student2);
+        fileUserRepository.insert(student3);
 //        System.out.println(fileUserRepository.findAll());
     }
 
