@@ -1,6 +1,8 @@
 public abstract class BaseView {
 
-    public abstract void initialize();
+    public void initialize() {
+        System.out.println(getTitle());
+    }
 
     public abstract String getTitle();
 

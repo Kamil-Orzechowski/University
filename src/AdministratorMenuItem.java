@@ -28,7 +28,7 @@ public enum AdministratorMenuItem {
                 return administratorMenuItem;
             }
         }
-        throw new NoSuchElementException();
+        throw new RuntimeException("Niewłaściwy numer.");
     }
 
     public int getNumber() {

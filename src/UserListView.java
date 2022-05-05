@@ -3,6 +3,8 @@ import java.util.List;
 public class UserListView extends BaseView{
 
     public void initialize() {
+        super.initialize();
+
         FileUserRepository fileUserRepository = new FileUserRepository();
         UserComparator comparator = new UserComparator();
         List<User> users = fileUserRepository.findAll();
